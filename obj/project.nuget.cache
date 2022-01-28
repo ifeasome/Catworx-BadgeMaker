@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "WdSp+XGy/8IC1qJXNOiewpDUtBZZZC8e9WcY5NejL/M9JhcyJP79mTCeZFesECwerkJpDG8ABaO8eEVxRFLn8w==",
+  "success": true,
+  "projectFilePath": "/Users/somelinaobiechina/Desktop/Coding Projects/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
+  "expectedPackageFiles": [
+    "/Users/somelinaobiechina/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/somelinaobiechina/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "/Users/somelinaobiechina/.nuget/packages/runtime.osx.10.10-x64.corecompat.system.drawing/6.0.5.128/runtime.osx.10.10-x64.corecompat.system.drawing.6.0.5.128.nupkg.sha512",
+    "/Users/somelinaobiechina/.nuget/packages/system.drawing.common/5.0.2/system.drawing.common.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
