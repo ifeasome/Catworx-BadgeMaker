@@ -38,3 +38,4 @@
 /Users/somelinaobiechina/Desktop/Coding Projects/CatWorx.BadgeMaker/obj/Debug/netcoreapp3.1/CatWorx.BadgeMaker.dll
 /Users/somelinaobiechina/Desktop/Coding Projects/CatWorx.BadgeMaker/obj/Debug/netcoreapp3.1/CatWorx.BadgeMaker.pdb
 /Users/somelinaobiechina/Desktop/Coding Projects/CatWorx.BadgeMaker/obj/Debug/netcoreapp3.1/CatWorx.BadgeMaker.genruntimeconfig.cache
+/Users/somelinaobiechina/Desktop/Coding Projects/CatWorx.BadgeMaker/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
