@@ -87,6 +87,7 @@ namespace CatWorx.BadgeMaker
                       Graphics graphic = Graphics.FromImage(badge);
                       graphic.DrawImage(background, new Rectangle(0, 0, BADGE_WIDTH, BADGE_HEIGHT));
                       graphic.DrawImage(photo, new Rectangle(PHOTO_START_X, PHOTO_START_Y, PHOTO_WIDTH, PHOTO_HEIGHT));
+
                     // Company name
                     graphic.DrawString(
                         employees[i].GetCompanyName(),
@@ -100,6 +101,7 @@ namespace CatWorx.BadgeMaker
                         ),
                         format
                         );
+
                     // Employee Name 
                     graphic.DrawString(
                         employees[i].GetName(),
@@ -113,6 +115,7 @@ namespace CatWorx.BadgeMaker
                         ),
                         format
                     );
+
                     // Employee ID 
                     graphic.DrawString(
                         employees[i].GetId().ToString(),
@@ -130,11 +133,8 @@ namespace CatWorx.BadgeMaker
                     badge.Save(string.Format(template, employees[i].GetId()));
                 }
             }
-           
-            // Create image 
-            //Users/somelinaobiechina/Desktop/Coding Projects/CatWorx.BadgeMaker/badge.png
-            // Image newImage = Image.FromFile("badge.png");
-            // newImage.Save("data/employeeBadge.png");
+
+            
 
         }
 

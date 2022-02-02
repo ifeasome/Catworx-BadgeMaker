@@ -8,12 +8,27 @@ namespace CatWorx.BadgeMaker
 
         static void Main(string[] args)
         {
-            //  List<Employee> employees = PeopleFetcher.GetEmployees();
-             List<Employee> employees = PeopleFetcher.GetFromAPI();
+            Console.WriteLine("Do you want to import API data for badges? type Y or N");
+            string response = Console.ReadLine();
+
+            if (response == "Y")
+            {
+                List<Employee> employees = PeopleFetcher.GetFromAPI();
+                Util.MakeCSV(employees);
+                Util.MakeBadges(employees);
+
+            }
+            else if (response == "N")
+            {
+                List<Employee> employees = PeopleFetcher.GetEmployees();
+                Util.MakeCSV(employees);
+                Util.MakeBadges(employees);
+            }
+            else 
+            {
+                Console.Write("Try a valid response");
+            }
             
-            Util.PrintEmployees(employees);
-            Util.MakeCSV(employees);
-            Util.MakeBadges(employees);
         }
 
     }
