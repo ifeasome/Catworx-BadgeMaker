@@ -20,7 +20,7 @@ A CLI application utilizing the random user API to create employee ID badges wri
 ## Installation 
 To install, follow the steps below: 
 
-1. Use git@github.com:ifeasome/Catworx-BadgeMaker.git to clone application repository onto your local computer 
+1. Use `git@github.com:ifeasome/Catworx-BadgeMaker.git` to clone application repository onto your local computer 
 2. Open the cloned repository in vscode
 3. In open terminal/bash, run command dotnet run 
 > Make sure that you have the C# extension added to your VS code and that the .NET Core is installed on your local machine 
